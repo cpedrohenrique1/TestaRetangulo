@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+#ifndef TESTARETANGULO_H_
+#define TESTARETANGULO_H_
 class Retangulo
 {
 private:
@@ -92,3 +92,4 @@ void menu()
         cin >> flag;
     } while (flag == 1);
 }
+#endif
